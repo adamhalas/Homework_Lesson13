@@ -69,11 +69,11 @@ namespace Homework_Lesson_13
             while (true)
             {
                 //Getting number from the user
-                Console.Write("Enter your number, please: ");
+                Console.Write("\nEnter your number, please: ");
 
                 if (!int.TryParse(Console.ReadLine(), out int num))
                 {
-                    Console.WriteLine("What you entered was not a number. Try again!");
+                    Console.WriteLine("\nWhat you entered was not a number. Try again!");
                     continue;
                 }
                 return num;
