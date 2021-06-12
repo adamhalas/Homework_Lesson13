@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework_Lesson_13
+namespace Homework_Week_4_Lesson_13
 {
     class FizzBuzz
     {
